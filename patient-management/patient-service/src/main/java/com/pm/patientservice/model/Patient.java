@@ -11,10 +11,10 @@ import java.util.UUID;
 public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO) //Auto gera o valor do Id
-    private UUID id; //essa proprieda será o @Id do paciente
+    private UUID id; //essa propriedade será o @Id do paciente
 
     @NotNull//sempre que tentamos persist, não aceita valor como nulo
-    private String nome;
+    private String name;
 
     @NotNull
     @Email //nomeia a coluna
@@ -22,12 +22,16 @@ public class Patient {
     private String email;
 
     @NotNull
-    private String adress;
+    private String address;
 
     @NotNull
     private LocalDate dateOfBirth;
 
-    //Getters and seterres
+    @NotNull
+    private LocalDate registeredDate;
+
+
+//Getters and seterres
 
     public UUID getId() {
         return id;
@@ -37,12 +41,12 @@ public class Patient {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String nome) {
+        this.name = nome;
     }
 
     public String getEmail() {
@@ -53,12 +57,12 @@ public class Patient {
         this.email = email;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public LocalDate getDateOfBirth() {
@@ -67,5 +71,13 @@ public class Patient {
 
     public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
+    }
+
+    public LocalDate getRegisteredDate() {
+        return registeredDate;
+    }
+
+    public void setRegisteredDate(LocalDate registeredDate) {
+        this.registeredDate = registeredDate;
     }
 }
