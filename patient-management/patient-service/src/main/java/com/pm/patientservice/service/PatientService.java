@@ -65,6 +65,7 @@ public class PatientService {
         return PatientMapper.toDTO(updatedPatient);
     }
 
+    //Serviço que chama a função do Repository para delatar um paciente pelo ID
     public void deletePatient(UUID id) {
         patientRepository.deleteById(id);
     }

@@ -12,6 +12,4 @@ public interface PatientRepository extends JpaRepository<Patient, UUID> {
     //retorna true ou false se já existe um email cadastrado no DB
     boolean existsByEmail(String email);
     boolean existsByEmailAndIdNot(String email, UUID id);
-
-    List<Patient> id(UUID id);
 }
