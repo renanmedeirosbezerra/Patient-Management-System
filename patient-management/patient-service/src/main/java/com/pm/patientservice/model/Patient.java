@@ -10,14 +10,14 @@ import java.util.UUID;
 @Entity
 public class Patient {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO) //Auto gera o valor do Id
-    private UUID id; //essa propriedade será o @Id do paciente
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private UUID id;
 
-    @NotNull//sempre que tentamos persist, não aceita valor como nulo
+    @NotNull
     private String name;
 
     @NotNull
-    @Email //nomeia a coluna
+    @Email
     @Column(unique = true)
     private String email;
 
@@ -29,9 +29,6 @@ public class Patient {
 
     @NotNull
     private LocalDate registeredDate;
-
-
-//Getters and seterres
 
     public UUID getId() {
         return id;
@@ -45,8 +42,8 @@ public class Patient {
         return name;
     }
 
-    public void setName(String nome) {
-        this.name = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {

@@ -1,6 +1,5 @@
 package com.pm.patientservice.dto;
 
-//ResponseDTO que constrói a resposta do DB
 public class PatientResponseDTO {
     private String id;
     private String name;

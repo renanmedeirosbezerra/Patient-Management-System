@@ -8,26 +8,24 @@ import java.time.LocalDate;
 
 public class PatientMapper {
 
-    //Converte de entity para DTO
     public static PatientResponseDTO toDTO(Patient patient){
-        PatientResponseDTO patientDTO = new PatientResponseDTO();
+        PatientResponseDTO patientResponseDTO = new PatientResponseDTO();
 
-        patientDTO.setId(patient.getId().toString());
-        patientDTO.setName(patient.getName());
-        patientDTO.setAddress(patient.getAddress());
-        patientDTO.setEmail(patient.getEmail());
-        patientDTO.setDateOfBirth(patient.getDateOfBirth().toString());
+        patientResponseDTO.setId(patient.getId().toString());
+        patientResponseDTO.setName(patient.getName());
+        patientResponseDTO.setEmail(patient.getEmail());
+        patientResponseDTO.setAddress(patient.getAddress());
+        patientResponseDTO.setDateOfBirth(patient.getDateOfBirth().toString());
 
-        return patientDTO;
+        return patientResponseDTO;
     }
 
-    //Converte de DTO para Entity
     public static Patient toModel(PatientRequestDTO patientRequestDTO){
         Patient patient = new Patient();
 
         patient.setName(patientRequestDTO.getName());
-        patient.setAddress(patientRequestDTO.getAddress());
         patient.setEmail(patientRequestDTO.getEmail());
+        patient.setAddress(patientRequestDTO.getAddress());
         patient.setDateOfBirth(LocalDate.parse(patientRequestDTO.getDateOfBirth()));
         patient.setRegisteredDate(LocalDate.parse(patientRequestDTO.getRegisteredDate()));
 

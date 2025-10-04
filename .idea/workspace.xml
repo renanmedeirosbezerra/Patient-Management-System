@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa55d705-8b26-41c9-9b50-04ee3336b70b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Patient Management System.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/api-requests/patient-service/create-patient.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/api-requests/patient-service/delete-patience.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/api-requests/patient-service/get-patients.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/api-requests/patient-service/update-patients.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-management.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/PatientServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/dto/PatientRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/dto/PatientResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/dto/validators/CreatePatientValidationGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/exception/EmailAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/exception/PatientNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/mapper/PatientMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/model/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/repository/PatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/java/com/pm/patientservice/service/PatientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management/patient-service/src/test/java/com/pm/patientservice/PatientServiceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "renanmedeirosbezerra"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/renanmedeirosbezerra/Patient-Management-System-Microservices.git",
+    "accountId": "75128ad5-df44-4926-9efd-5eed1a394e20"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="33N84ubAQir2tt8JzBkGlPPSTtr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/renan/Documents/Computacao/Projetos/Patient Management System",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa55d705-8b26-41c9-9b50-04ee3336b70b" name="Changes" comment="" />
+      <created>1759145981575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759145981575</updated>
+      <workItem from="1759145983175" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
