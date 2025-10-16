@@ -33,7 +33,7 @@
           <list>
             <DockerVolumeBindingImpl>
               <option name="containerPath" value="/var/lib/postgresql/data" />
-              <option name="hostPath" value="C:\Users\renan\Documents\Computacao\Projetos\db_volumes" />
+              <option name="hostPath" value="C:\Users\renan\Documents\Computacao\Projetos\db_volumes\patient-service-db" />
             </DockerVolumeBindingImpl>
           </list>
         </option>
